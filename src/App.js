@@ -19,8 +19,8 @@ function App() {
   // Create 3 states, "profile", "followers", and "following"
   const [profile,setProfile] = useState({});
   // console.log("jawaab",profile)
-  const [followers,setFollowers] = useState({});
-  const [following,setFollowing] = useState({});
+  const [followers,setFollowers] = useState([]);
+  const [following,setFollowing] = useState([]);
   // Samee 3 state, "profile", "followers", iyo "following"
 
 
